@@ -4,11 +4,35 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="remove unnecessary files">
-      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Note/Java-第01堂-2024.05.10-個人筆記分享.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Note/Week3/Java第三堂.pptx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Note/Week3/Week 3 Assignment_William Hui.pdf" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Note/Week4/Week 4_assignemnt_William Hui.pdf" beforeDir="false" />
+    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="organise the folder structure">
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/main/.idea/modules.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/Java_Cantonese_52.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/week2/ifLoopDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/week2/ifLoopDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/week3/ForLoop.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/week3/ForLoop.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/week4/Assignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/week4/Assignment1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/week4/Assignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/week4/Assignment2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Java_Cantonese_52/src/week4/Assignment3_LoopForDesignatedNumber.java" beforeDir="false" afterPath="$PROJECT_DIR$/main/src/week4/Assignment3_LoopForDesignatedNumber.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Example1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java Learning Cantonese.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/Java_Cantonese_52.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/src/week3/ForLoop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/src/week4/Assignment1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/src/week4/Assignment2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Java_Cantonese_52/src/week4/Assignment3_LoopForDesignatedNumber.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Java Learning Cantonese/loop/ifLoopDemo.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,13 +78,13 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="Application.Assignment3_LoopForDesignatedNumber">
+  <component name="RunManager" selected="Application.ifLoopDemo">
     <configuration name="Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Cantonese_52.src.week4.Assignment1" />
+      <option name="MAIN_CLASS_NAME" value="main.src.week4.Assignment1" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Cantonese_52.src.week4.*" />
+          <option name="PATTERN" value="main.src.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -69,11 +93,11 @@
       </method>
     </configuration>
     <configuration name="Assignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Cantonese_52.src.week4.Assignment2" />
+      <option name="MAIN_CLASS_NAME" value="main.src.week4.Assignment2" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Cantonese_52.src.week4.*" />
+          <option name="PATTERN" value="main.src.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -82,11 +106,11 @@
       </method>
     </configuration>
     <configuration name="Assignment3_LoopForDesignatedNumber" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Cantonese_52.src.week4.Assignment3_LoopForDesignatedNumber" />
+      <option name="MAIN_CLASS_NAME" value="main.src.week4.Assignment3_LoopForDesignatedNumber" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Cantonese_52.src.week4.*" />
+          <option name="PATTERN" value="main.src.week4.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -95,11 +119,24 @@
       </method>
     </configuration>
     <configuration name="ForLoop" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java_Cantonese_52.src.week3.ForLoop" />
+      <option name="MAIN_CLASS_NAME" value="main.src.week3.ForLoop" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java_Cantonese_52.src.week3.*" />
+          <option name="PATTERN" value="main.src.week3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ifLoopDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="main.src.week2.ifLoopDemo" />
+      <module name="Java Learning Cantonese" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="main.src.week2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,6 +159,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ifLoopDemo" />
         <item itemvalue="Application.Assignment3_LoopForDesignatedNumber" />
         <item itemvalue="Application.Assignment2" />
         <item itemvalue="Application.Assignment1" />
@@ -151,6 +189,15 @@
       <workItem from="1717599231060" duration="3839000" />
       <workItem from="1718212199981" duration="137000" />
     </task>
+    <task id="LOCAL-00001" summary="remove notes, add week3 and week4 assignments">
+      <option name="closed" value="true" />
+      <created>1718214026052</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1718214026052</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -158,21 +205,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="remove unnecessary files" />
-    <option name="LAST_COMMIT_MESSAGE" value="remove unnecessary files" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-method">
-          <url>file://$PROJECT_DIR$/Java_Cantonese_52/src/week4/Assignment3_LoopForDesignatedNumber.java</url>
-          <line>5</line>
-          <properties class="Java_Cantonese_52.src.week4.Assignment3_LoopForDesignatedNumber" method="main">
-            <option name="EMULATED" value="true" />
-            <option name="WATCH_EXIT" value="false" />
-          </properties>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
+    <MESSAGE value="remove notes, add week3 and week4 assignments" />
+    <MESSAGE value="organise the folder structure" />
+    <option name="LAST_COMMIT_MESSAGE" value="organise the folder structure" />
   </component>
 </project>
