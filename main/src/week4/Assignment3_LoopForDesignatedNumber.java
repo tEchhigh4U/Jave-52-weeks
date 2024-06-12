@@ -1,4 +1,4 @@
-package Java_Cantonese_52.src.week4;
+package main.src.week4;
 
 import java.util.Arrays;
 
@@ -29,7 +29,7 @@ public class Assignment3_LoopForDesignatedNumber {
         System.out.println(Arrays.toString(arr));
     }
 
-    public void example(){
+//    public void example(){
 //        int[] arr = {1, 3, 2, 70, 9};
 //        int min = 10000;
 //        int max = -9999;
@@ -54,5 +54,5 @@ public class Assignment3_LoopForDesignatedNumber {
 //        System.out.println("Max number is " + max);
 //        System.out.println("Second Largest number is " + secondLargest);
 //        System.out.println(Arrays.toString(arr));
-    }
+//    }
 }

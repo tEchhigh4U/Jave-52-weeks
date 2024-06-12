@@ -1,4 +1,4 @@
-package Java_Cantonese_52.src.week4;
+package main.src.week4;
 
 // Ex1
 // 1 3 5 7 9

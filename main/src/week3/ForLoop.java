@@ -1,4 +1,4 @@
-package Java_Cantonese_52.src.week3;
+package main.src.week3;
 
 public class ForLoop {
     public static void main(String[] args) {
