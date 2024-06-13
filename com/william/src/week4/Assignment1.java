@@ -1,4 +1,4 @@
-package main.src.week4;
+package com.william.src.week4;
 
 // Ex1
 // 1 3 5 7 9

@@ -1,4 +1,4 @@
-package main.src.week3;
+package com.william.src.week3;
 
 public class ForLoop {
     public static void main(String[] args) {
