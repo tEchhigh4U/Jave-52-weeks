@@ -21,7 +21,7 @@ public class BubbleSortAssignment1 {
                 }
             }
 
-            // if swap is completed, array is sorted
+            // if swap is completed, array is sorted so end the loop asap
             if (!swapped) {
                 break;
             }
