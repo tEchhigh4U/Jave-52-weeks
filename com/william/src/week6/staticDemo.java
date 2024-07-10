@@ -10,7 +10,7 @@ abstract class Animal {
 
     public int getSpeed(){
         return speed;
-    };
+    }
 
     public void setBaseSpeed(int x){
         speed = x;
@@ -36,7 +36,7 @@ class Dog extends Animal {
 
     public void setSpeed(int x) {
         if (x >= -10 && x <= 40) {
-            setBaseSpeed(x);;
+            setBaseSpeed(x);
         } else {
             System.out.println("The speed is out of range.");
         }
@@ -88,7 +88,7 @@ public class staticDemo {
         Cat myCat = new Cat(catOwners);
 
         myDog.setSpeed(40);
-        myCat.setSpeed(-10);
+        myCat.setSpeed(-10); // set an invalid speed for myCat
         Animal.setNumberOfCellsInBrain(1);
 
         myDog.addOwner("Peter");
