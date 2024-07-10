@@ -4,12 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="add week 5 Assignments">
-      <change afterPath="$PROJECT_DIR$/com/william/src/week6/staticDemo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/william/src/week5/BubbleSortAssignment1.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/william/src/week5/BubbleSortAssignment1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/com/william/src/week5/ClassAssignment2.java" beforeDir="false" afterPath="$PROJECT_DIR$/com/william/src/week5/ClassAssignment2.java" afterDir="false" />
-    </list>
+    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="add comment to assignment for week 6" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -184,7 +179,7 @@
       <workItem from="1718281542259" duration="341000" />
       <workItem from="1718283904398" duration="6713000" />
       <workItem from="1718549804451" duration="10762000" />
-      <workItem from="1720613032779" duration="6472000" />
+      <workItem from="1720613032779" duration="6896000" />
     </task>
     <task id="LOCAL-00001" summary="remove notes, add week3 and week4 assignments">
       <option name="closed" value="true" />
@@ -218,7 +213,23 @@
       <option name="project" value="LOCAL" />
       <updated>1718289723458</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="add week 6 Assignments">
+      <option name="closed" value="true" />
+      <created>1720619827825</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1720619827825</updated>
+    </task>
+    <task id="LOCAL-00006" summary="add comment to assignment for week 6">
+      <option name="closed" value="true" />
+      <created>1720620176729</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1720620176729</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -240,7 +251,9 @@
     <MESSAGE value="remove notes, add week3 and week4 assignments" />
     <MESSAGE value="organise the folder structure" />
     <MESSAGE value="add week 5 Assignments" />
-    <option name="LAST_COMMIT_MESSAGE" value="add week 5 Assignments" />
+    <MESSAGE value="add week 6 Assignments" />
+    <MESSAGE value="add comment to assignment for week 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="add comment to assignment for week 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

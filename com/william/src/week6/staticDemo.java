@@ -97,13 +97,11 @@ public class staticDemo {
         // Print owners
         System.out.println("Dog owners:");
         myDog.getOwner();
-
-        System.out.println();
-
+        System.out.println(); //line breaker
         System.out.println("Cat owners:");
         myCat.getOwner();
 
-        System.out.println();
+        System.out.println(); //line breaker
         System.out.println("Dog speed: " + myDog.getSpeed());
         System.out.println("Cat speed: " + myCat.getSpeed());
         System.out.println("Dog's number of brains: " + Dog.getNumberOfCellsInBrain());
