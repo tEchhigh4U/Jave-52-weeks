@@ -4,7 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="add comment to assignment for week 6" />
+    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="refactor code for assignment in week 6">
+      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/LinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/MyLinkedList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/Node.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -33,38 +40,39 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.ArrayDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assignment1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assignment2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Assignment3_LoopForDesignatedNumber.executor&quot;: &quot;Run&quot;,
-    &quot;Application.BubbleSort.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ClassAssignment2.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ForLoop.executor&quot;: &quot;Run&quot;,
-    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
-    &quot;Application.com.william.src.week4.Assignment1.executor&quot;: &quot;Run&quot;,
-    &quot;Application.ifLoopDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.staticDemo.executor&quot;: &quot;Run&quot;,
-    &quot;Application.week6.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/Users/Williamhui/Code/self-project repro/Java Learning Cantonese&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.25632185&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.appearance&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.ArrayDemo.executor": "Run",
+    "Application.Assignment1.executor": "Run",
+    "Application.Assignment2.executor": "Run",
+    "Application.Assignment3_LoopForDesignatedNumber.executor": "Run",
+    "Application.BubbleSort.executor": "Run",
+    "Application.ClassAssignment2.executor": "Run",
+    "Application.ForLoop.executor": "Run",
+    "Application.LinkedList.executor": "Run",
+    "Application.Main.executor": "Run",
+    "Application.com.william.src.week4.Assignment1.executor": "Run",
+    "Application.ifLoopDemo.executor": "Run",
+    "Application.staticDemo.executor": "Run",
+    "Application.week6.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/Users/Williamhui/Code/self-project repro/Java Learning Cantonese",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.15",
+    "project.structure.side.proportion": "0.25632185",
+    "settings.editor.selected.configurable": "editor.preferences.appearance",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
-  <component name="RunManager" selected="Application.staticDemo">
+}]]></component>
+  <component name="RunManager" selected="Application.LinkedList">
     <configuration name="BubbleSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.william.src.week5.BubbleSortAssignment1" />
       <module name="Java Learning Cantonese" />
@@ -85,12 +93,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.william.src.Main" />
+    <configuration name="LinkedList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.william.src.leetcode.class1.linkedList.LinkedList" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.william.src.week6.*" />
+          <option name="PATTERN" value="com.william.src.leetcode.class1.linkedList.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +106,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="com.william.src.week4.Assignment1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.william.src.week4.Assignment1" />
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.william.src.Main" />
       <module name="Java Learning Cantonese" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.william.src.week4.*" />
+          <option name="PATTERN" value="com.william.src.week6.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +147,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.staticDemo" />
       <item itemvalue="Application.week6" />
       <item itemvalue="Application.ClassAssignment2" />
       <item itemvalue="Application.Main" />
-      <item itemvalue="Application.com.william.src.week4.Assignment1" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.staticDemo" />
         <item itemvalue="Application.week6" />
         <item itemvalue="Application.ClassAssignment2" />
         <item itemvalue="Application.Main" />
-        <item itemvalue="Application.com.william.src.week4.Assignment1" />
       </list>
     </recent_temporary>
   </component>
@@ -179,7 +187,8 @@
       <workItem from="1718281542259" duration="341000" />
       <workItem from="1718283904398" duration="6713000" />
       <workItem from="1718549804451" duration="10762000" />
-      <workItem from="1720613032779" duration="6896000" />
+      <workItem from="1720613032779" duration="10507000" />
+      <workItem from="1732254687516" duration="10052000" />
     </task>
     <task id="LOCAL-00001" summary="remove notes, add week3 and week4 assignments">
       <option name="closed" value="true" />
@@ -229,7 +238,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720620176729</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor code for assignment in week 6">
+      <option name="closed" value="true" />
+      <created>1720620348711</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1720620348711</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,7 +270,8 @@
     <MESSAGE value="add week 5 Assignments" />
     <MESSAGE value="add week 6 Assignments" />
     <MESSAGE value="add comment to assignment for week 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="add comment to assignment for week 6" />
+    <MESSAGE value="refactor code for assignment in week 6" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor code for assignment in week 6" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
