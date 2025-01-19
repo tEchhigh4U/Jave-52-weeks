@@ -4,12 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="refactor code for assignment in week 6">
-      <change afterPath="$PROJECT_DIR$/.idea/checkstyle-idea.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/LinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/MyLinkedList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/com/william/src/leetcode/class1/linkedList/Node.java" afterDir="false" />
+    <list default="true" id="9c08422b-3061-48b7-85dd-5ce50e248454" name="Changes" comment="Add double linked list exercise in Leetcode folder.">
+      <change afterPath="$PROJECT_DIR$/com/william/src/demo/Array.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/com/william/src/demo/TestArray.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -51,6 +49,8 @@
     "Application.ForLoop.executor": "Run",
     "Application.LinkedList.executor": "Run",
     "Application.Main.executor": "Run",
+    "Application.TestArray.executor": "Run",
+    "Application.TestRandomArray.executor": "Run",
     "Application.com.william.src.week4.Assignment1.executor": "Run",
     "Application.ifLoopDemo.executor": "Run",
     "Application.staticDemo.executor": "Run",
@@ -72,23 +72,10 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="Application.LinkedList">
+  <component name="RunManager" selected="Application.TestArray">
     <configuration name="BubbleSort" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.william.src.week5.BubbleSortAssignment1" />
       <module name="Java Learning Cantonese" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ClassAssignment2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.william.src.week5.ClassAssignment2" />
-      <module name="Java Learning Cantonese" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.william.src.week5.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -112,6 +99,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="com.william.src.week6.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestArray" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.william.src.demo.TestArray" />
+      <module name="Java Learning Cantonese" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.william.src.demo.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +147,19 @@
     </configuration>
     <list>
       <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.TestArray" />
       <item itemvalue="Application.LinkedList" />
       <item itemvalue="Application.staticDemo" />
       <item itemvalue="Application.week6" />
-      <item itemvalue="Application.ClassAssignment2" />
       <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestArray" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="Application.LinkedList" />
         <item itemvalue="Application.staticDemo" />
         <item itemvalue="Application.week6" />
-        <item itemvalue="Application.ClassAssignment2" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +188,9 @@
       <workItem from="1718283904398" duration="6713000" />
       <workItem from="1718549804451" duration="10762000" />
       <workItem from="1720613032779" duration="10507000" />
-      <workItem from="1732254687516" duration="10052000" />
+      <workItem from="1732254687516" duration="12019000" />
+      <workItem from="1733489373030" duration="603000" />
+      <workItem from="1737294787434" duration="5555000" />
     </task>
     <task id="LOCAL-00001" summary="remove notes, add week3 and week4 assignments">
       <option name="closed" value="true" />
@@ -246,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1720620348711</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add double linked list exercise in Leetcode folder.">
+      <option name="closed" value="true" />
+      <created>1732640020944</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732640020944</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -271,7 +281,8 @@
     <MESSAGE value="add week 6 Assignments" />
     <MESSAGE value="add comment to assignment for week 6" />
     <MESSAGE value="refactor code for assignment in week 6" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor code for assignment in week 6" />
+    <MESSAGE value="Add double linked list exercise in Leetcode folder." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add double linked list exercise in Leetcode folder." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
